@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(17, 194, 194);
+        }
+        h1{
+            color: rgb(220, 43, 226);
+        }
+        p{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+ <h1 id= "miTitulo">Roberto Hernandez Grimaldo</h1>   
+ <p>Esto si es ingeneria y no...
+    Manden apoyo  
+ </p>
+ <script>
+document.getElementById("miTitulo")
+.addEventListener("click", function(){
+    this.style.color = "blue";
+});
+ </script>
+</body>
+</html>

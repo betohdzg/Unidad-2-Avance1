@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+
+<biblioteca>
+    <libro>
+        <titulo>El quijote</titulo>
+        <autor>Miguel de cervantes</autor>
+        <editorial>Editorial Cervantes</editorial>
+        <year>1605</year>
+    </libro>
+    <libro>
+        <titulo>El Odisea</titulo>
+        <autor>Homero</autor>
+        <editorial>Editorial Homero</editorial>
+        <year>800 a.c</year>
+    </libro>
+    <libro>
+        <titulo>Harry potter</titulo>
+        <autor>harry</autor>
+        <editorial>Editorial Harry</editorial>
+        <year>2003</year>
+    </libro>
+    <libro>
+        <titulo>Harry potter 2</titulo>
+        <autor>harry</autor>
+        <editorial>Editorial Harry</editorial>
+        <year>2003</year>
+    </libro>
+</biblioteca>

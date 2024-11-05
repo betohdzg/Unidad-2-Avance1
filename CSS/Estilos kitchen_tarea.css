@@ -1,0 +1,83 @@
+h1{
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #5AEDD2;
+    font-weight: bold;
+
+  }
+
+  body, h2, h3, h4, h5, h6, p {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p{
+    background-color: #10937B;
+  }
+
+  ul li::marker{
+    content: "🍕";
+}
+ul li ul li::marker{
+    content: "🌮";
+}
+ul li ul li ul li::marker{
+    content: "🥃";
+}
+table {
+    
+    border-collapse: collapse; 
+  }
+  
+  th, td { 
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  tbody tr:nth-child(1) {
+    background-color: #18DCB8; 
+  }
+  
+  tbody tr:nth-child(3) {
+    background-color: #18DCB8; 
+  }
+  tbody tr:nth-child(5) {
+    background-color: #18DCB8; 
+  }
+  tbody tr:nth-child(7) {
+    background-color: #18DCB8; 
+  }
+  tbody tr:nth-child(9) {
+    background-color: #18DCB8; 
+  }
+  button:active{
+    background-color: #7EF1DC;
+}  
+input:focus{
+    background-color: #91F3E1;
+}
+textarea{
+    background-color: #91F3E1;
+}
+dt{
+    color: #A3F5E6;
+    font-weight: bold;
+}
+legend{
+    background-color: #91F3E1;
+}
+form {
+    border: 2px solid #14B89A; 
+    padding: 10px;
+    border-radius: 5px; 
+  }
+  
+  fieldset {
+    border: none; /
+  }
+  /*Profe no se si vaya a  ver este comentaario, pero si lo ve no entendi del todo a que se referia con 20 selectores.
+  Para el significado que tengo ahorita es que cada selector es el diseño que le aplicamos a cada etiqueta o objeto, pero yo digo que con 
+  esos son los 20 ¿no? /

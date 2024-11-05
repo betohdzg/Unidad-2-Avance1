@@ -1,0 +1,90 @@
+*/*{
+    color: #d56790;
+}*/
+h1{
+    color: #1000ff;
+}
+.verde{
+    background-color: #00ff22;
+    color: black;
+}
+h6.verde{
+    background-color: #80ff00;
+}
+#sections{
+    background-color: hsl(20, 10, 10);
+    color: hsl(24, 24%, 96%);
+}
+[type="text"]{
+    border: #8009ff;
+}
+input[type]{
+    background-color: rgb(236, 236, 1);
+}
+input[type="text"]:focus{
+    background-color: #ff80c0;
+}
+p::first-line{
+    font-family: monospace;
+}
+div[class~="azul"]{
+    color: blue !important;
+}
+html[lang|="es"]{
+    font-family: "Arial", sans-serif;
+}
+a[href^="https://"]{
+    color: blue;
+}
+img[src$=".png"]{
+    border: 1px solid red;
+}
+[title*="plan"]{
+color: green;
+}
+a:hover{
+    color: red;
+}
+button:active{
+    background-color: #00e1ff;
+}
+input:focus{
+    background-color: #ff8000;
+}
+input:checked{
+    background-color: #ff0084;
+}
+input:disabled{
+    color: #aeff00;
+}
+#parrafo p:first-child{
+    background-color: #ff0000;
+}
+#parrafo p:last-child{
+    background-color: #ff5900;
+}
+#parrafo p:nth-child(3){
+    background-color: #ff9d00;
+}
+#parrafo p::first-letter{
+    font-size: 24px;
+}
+#parrafo p:nth-child(even)::first-letter{
+    font-size: 24px;
+}
+blockquote::before{
+    content: "✨";
+}
+blockquote::after{
+    content: "🎂";
+    border:1px solid #8009ff
+}
+ul li::marker{
+    content: "🍕";
+}
+ul li ul li::marker{
+    content: "🌮";
+}
+ul li ul li ul li::marker{
+    content: "🥃";
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <a href="index.html">🏡</a>
+    <a href="CV oficial.html">⏪</a>
+    <a href="Estilos HTML.html">⏩</a>
+    <h1>Formularios</h1>
+    <h2>Formulario con GET</h2>
+    <form action="procesa.php" method="GET">
+      <input type="text"
+       name="nombre" 
+       id="nombre" 
+       placeholder="Nombre(s)" required/>
+      <input
+        type="text"
+        name="apellido_paterno"
+        id="apellido_paterno"
+        placeholder="Apellido paterno"
+        required
+      />
+      <input
+        type="text"
+        name="apellido_materno"
+        id="apellido_materno"
+        placeholder="Apellido materno"
+        required
+      />
+    
+
+    <input type="password" name="nombre"  />
+    <input type="file" name="archivo" />
+    <input type="checkbox" name="acepto" />
+    <input type="radio" name="sexo" value="M" />
+    <input type="hidden" name="Folio" />
+    <input type="email" name="email" />
+    <input type="url" name="url" />
+    <input type="number" name="numero" />
+    <input type="range" name="Folio" />
+    <input type="date" name="fecha" />
+    <input type="month" name="Mes" />
+    <input type="week" name="Semana" />
+    <input type="time" name="Hora" />
+    <input type="datetime-local" name="fecha y hora" />
+    <input type="color" name="Color" />
+    <input type="search" name="Busqueda" />
+    <input type="tel" name="Telefonos" />
+    <textarea name="comentario" rows="2" cols="20">
+Escribe aquí tu comentario...
+    </textarea>
+   <label for="nombre">Nombre:</label> 
+   <input type="text" id="nombre" name="nombre" />
+  </form>
+
+  <form method="Formularios.html" action="/procesa">
+    <p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre"
+      name="nombre" />
+    </p>
+    <div>
+      <label for="masculino"><input type="radio" id="masculino" 
+        name="genero" value="M" checked />
+      Masculino</label>
+
+    </div>
+
+    <div>
+      <label for="femenino"><input type="radio" id="femenino" 
+        name="genero" value="F" checked />
+      Femenino</label>
+    </div>
+
+    <div>
+      <label for="Otro"><input type="radio" id="Otro" 
+        name="genero" value="F" checked />
+      Otr@</label>
+    </div>
+
+    <select name="pais">
+      <option value="México">México</option>
+      <option value="USA">Estados Unidos</option>
+      <option value="CA">Canadá</option>
+      <option value="Vacio" selected></option>
+    </select>
+
+    <select name="colores">
+      <optgroup label="Colores Primarios">
+        <option value="rojo">Rojo</option>
+        <option value="verde">Verde</option>
+        <option value="azul">Azul</option>
+      </optgroup>
+      <optgroup label="Colores Secundarios">
+        <option value="amarillo">Amarillo</option>
+        <option value="naranja">Naranja</option>
+        <option value="violeta">Violeta</option>
+      </optgroup>
+    </select>
+
+    <select name="colores" multiple size="2">
+      <option value="rojo">Rojo</option>
+      <option value="verde">Verde</option>
+      <option value="azul">Azul</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+    <button type="button">Cancelar</button>
+
+    <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM168,208H88V152h80Zm40,0H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z"></path></svg>
+    Guardar</button>
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"/>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido"name="apellido"/>
+    </fieldset>
+
+  <input list="colores" name="color" />
+  <datalist id="colores">
+    <option value="Rojo"/>
+    <option value="Verde"/>
+    <option value="Azul"/>
+  </datalist>
+
+  <output name="resultado" for="numero">0</output>
+  <progress value="75" max="100">75%</progress>
+  <meter value="0.5" min="0" max="1">50%</meter>
+  <details>
+    <summary>Detalles</summary>
+    <p>Contenido de los detalles...</p>
+  </details>
+  </form>
+
+    <h2>Formulario con POST</h2>
+    <input
+      type="text"
+      name="nombre"
+      id="nombre"
+      placeholder="Nombre(s)"
+      required
+    />
+    <input
+      type="text"
+      name="apellido_paterno"
+      id="apellido_paterno"
+      placeholder="Apellido paterno"
+      required
+    />
+    <input
+      type="text"
+      name="apellido_materno"
+      id="apellido_materno"
+      placeholder="Apellido materno"
+      required
+    />
+
+  </body>
+</html>

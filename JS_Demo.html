@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Demo</title>
+</head>
+<body>
+    <a href="index.html">🏡</a>
+    <a href="dom.html">⏩</a>
+    <h1 onmouseover="style.color = 'red'" onmouseleave="style.color='blue'">Titulo cualquiera</h1>
+    <p>Esto es un parrafo dentro de un demo de Js.</p>
+    <script>
+        console.log("Hola Mundo!");
+    </script>
+    <script> src="js/script.js" </script>
+
+    <script>
+        let anio = parseInt(prompt("En que año naciste?")) ;
+let anio_actual = new Date().getFullYear();
+edad = anio_actual - anio;
+
+if(edad >= 18){
+    console.info("eres mayor de edad");
+} else if(edad >= 12 && edad < 18){
+    if(edad == 12){
+        console.log("Eres un preadolescente");
+    } else{
+        console.log("Eres un adolescente");
+    }
+}else{
+    console.warn ("Eres un niño");
+
+}
+    </script>
+
+    <script>
+        let dia = parseInt(prompt("Ingresa un numero del 1 al 7")) ;
+        switch(dia){
+            case 1: 
+            console.log("Lunes");
+            break;
+            case 2: 
+            console.log("Martes");
+            break;
+            case 3: 
+            console.log("Miercoles");
+            break;
+            case 4: 
+            console.log("Jueves");
+            break;
+            case 5: 
+            console.log("Dia no valido");
+            break;
+        }
+    </script>
+   <script src="JS/script.js"></script>
+
+  
+</body>
+</html>

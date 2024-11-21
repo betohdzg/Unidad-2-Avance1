@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Itim&family=Lexend:wght@100..900&family=Lilita+One&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rowdies:wght@300;400;700&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Figtree:ital,wght@0,300..900;1,300..900&family=Itim&family=Lexend:wght@100..900&family=Lilita+One&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rowdies:wght@300;400;700&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    position: relative;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+    color: #08A4BD; 
+    margin-top: 70px;
+    text-shadow: 
+        4px 4px 0 #00635D, 
+        -4px 4px 0 #00635D,
+        4px -4px 0 #00635D,
+        -4px -4px 0 #00635D; 
+}
+
+h5, h3 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 30px;
+    color: #28AFB0;
+    margin-bottom: 15px;
+}
+p{
+    
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    color: #0EAD69;
+    margin-bottom: 15px;
+}
+
+/* Imagen en la parte superior izquierda */
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 180px; 
+    height: auto; 
+}
+
+/* Estilo para el formulario de búsqueda */
+.search-form {
+    position: absolute;
+    top: 20px; /* Margen superior */
+    right: 20px; /* Margen derecho */
+    display: flex;
+    gap: 10px; /* Espaciado entre input y botón */
+}
+
+/* Estilo del input */
+#RickyMorty-buscador {
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    padding: 5px 10px;
+    width: 250px; 
+}
+
+
+#buscar-btn {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #09EC67; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.btn-secondary{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #09EC67; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.ver-detalles-btn {
+    background-color: #28a745; /* Verde, igual que el botón Buscar */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ver-detalles-btn:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+}
+
+
+/* Estilo para la lista de personajes */
+#lista-personajes .card {
+    margin-bottom: 20px;
+}
+body{
+    background-color: #82968C;
+}
+#RickyMorty-buscador{
+    font-family: "Sour Gummy", sans-serif;
+}
+
